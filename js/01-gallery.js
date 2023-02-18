@@ -29,17 +29,6 @@ function createImageCardsMarkup(images) {
 	}).join('');
 }
 
-// function onImageContainerClick(e) {
-//   console.log(e.target);
-//   e.preventDefault();
-//   if (!e.target.classList.contains('gallery__image')) {
-//     return;
-//   }
-  
-//   console.log(e.target);
-// }
-
-
 function onGalleryImageClick(e) {
   if (e.target.nodeName !== "IMG") {
     return;
