@@ -50,7 +50,7 @@ function onGalleryImageClick(e) {
       onShow: () => {
         window.addEventListener("keydown", closeModal);
       },
-      onclose: () => {
+      onClose: () => {
         window.removeEventListener("keydown", closeModal);
       },
     }
